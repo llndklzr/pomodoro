@@ -14,11 +14,11 @@ function FocusDuration ({ min, max, label, session, setSession }) {
   return (
     <div className="input-group input-group-lg mb-2">
       <span className="input-group-text" data-testid="duration-focus">
-        {/* TODO: Update this text to display the current focus session duration */}
+        {/* Update this text to display the current focus session duration */}
         {`${label} ${secondsToDuration(session.focusDuration)}`}
       </span>
       <div className="input-group-append">
-        {/* TODO: Implement decreasing focus duration and disable during a focus or break session */}
+        {/* Implement decreasing focus duration and disable during a focus or break session */}
         <button
           type="button"
           className={classNames({
@@ -30,13 +30,14 @@ function FocusDuration ({ min, max, label, session, setSession }) {
         >
           <span className="oi oi-minus" />
         </button>
-        {/* TODO: Implement increasing focus duration  and disable during a focus or break session */}
+        {/* Implement increasing focus duration  and disable during a focus or break session */}
         <button
           type="button"
           className={classNames({
             "btn": true,
             "btn-primary": !session.active,
-            "btn-secondary": session.active,          })}
+            "btn-secondary": session.active,
+          })}
           onClick={ !session.active ? increaseButtonHandler : undefined }
           data-testid="increase-focus"
         >

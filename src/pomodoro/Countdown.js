@@ -9,12 +9,12 @@ function Countdown ({ session, isTimerRunning }) {
 
   return (  
     <div>
-      {/* TODO: This area should show only when a focus or break session is running or pauses */}
+      {/* This area should show only when a focus or break session is running or pauses */}
       <div className="row mb-2">
         <div className="col">
-          {/* TODO: Update message below to include current session (Focusing or On Break) and total duration */}
+          {/* Update message below to include current session (Focusing or On Break) and total duration */}
           <h2 data-testid="session-title">{session.sessionTypeVerb} for {secondsToDuration(session.currentDuration)} minutes</h2>          
-          {/* TODO: Update message below to include time remaining in the current session */}
+          {/* Update message below to include time remaining in the current session */}
           <p className="lead" data-testid="session-sub-title">
             {secondsToDuration(session.timer)} remaining
           </p>

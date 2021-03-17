@@ -14,11 +14,11 @@ function BreakDuration ({ min, max, label, session, setSession }) {
   return (
     <div className="input-group input-group-lg mb-2">
       <span className="input-group-text" data-testid="duration-break">
-        {/* TODO: Update this text to display the current break session duration */}
+        {/* Update this text to display the current break session duration */}
         {`${label} ${secondsToDuration(session.breakDuration)}`}
       </span>
       <div className="input-group-append">
-        {/* TODO: Implement decreasing break duration and disable during a focus or break session */}
+        {/* Implement decreasing break duration and disable during a focus or break session */}
         <button
           type="button"
           className={classNames({
@@ -31,7 +31,7 @@ function BreakDuration ({ min, max, label, session, setSession }) {
         >
           <span className="oi oi-minus" />
         </button>
-        {/* TODO: Implement increasing break duration  and disable during a focus or break session */}
+        {/* Implement increasing break duration  and disable during a focus or break session */}
         <button
           type="button"
           className={classNames({

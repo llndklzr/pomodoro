@@ -104,7 +104,7 @@ function Pomodoro() {
                 })}
               />
             </button>
-            {/* TODO: Implement stopping the current focus or break session and disable when there is no active session */}
+            {/* Implement stopping the current focus or break session and disable when there is no active session */}
             <button
               type="button"
               className={classNames({
