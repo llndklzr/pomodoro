@@ -1,2 +1,2 @@
 # pomodoro
-[Live Link](https://llndklzr.github.io/pomodoro/)
+[Live Link](https://project-pomodoro-timer-qualified-1-alpha.vercel.app/)
