@@ -1,4 +1,5 @@
 # pomodoro
+<<<<<<< HEAD
 
 [Live Link](https://llndklzr.github.io/pomodoro/)
 
@@ -27,3 +28,6 @@ The Pomodoro technique is a time-management method developed by Francesco Cirill
 - It was fun to create a dynamic timer that includes changing what is rendered based on state.
 - This is the first time I've used sounds in an application I've built.
 - There was a suggested challenge in this project to keep all state in a single object. This proved to be a nice way to keep it organized and made props much less messy to keep track of.
+=======
+[Live Link](https://project-pomodoro-timer-qualified-1-alpha.vercel.app/)
+>>>>>>> 96a2250a5a41d5bc43b75b87f63f7ce15ccc0ba7
