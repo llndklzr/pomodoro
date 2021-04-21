@@ -1,6 +1,6 @@
 # pomodoro
 
-[Live Link](https://llndklzr.github.io/pomodoro/)
+[Live Link](https://project-pomodoro-timer-qualified-1-alpha.vercel.app/)
 
 
 A project completed as part of my Thinkful curriculum. This is a timer which alternates between study periods and break periods built in React.
