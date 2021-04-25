@@ -14,11 +14,11 @@ function FocusDuration ({ min, max, label, session, setSession }) {
   return (
     <div className="input-group input-group-lg mb-2">
       <span className="input-group-text" data-testid="duration-focus">
-        {/* Update this text to display the current focus session duration */}
+        {/* display the current focus session duration */}
         {`${label} ${secondsToDuration(session.focusDuration)}`}
       </span>
       <div className="input-group-append">
-        {/* Implement decreasing focus duration and disable during a focus or break session */}
+        {/* button: decreasing focus duration and disable during a focus or break session */}
         <button
           type="button"
           className={classNames({
@@ -30,7 +30,7 @@ function FocusDuration ({ min, max, label, session, setSession }) {
         >
           <span className="oi oi-minus" />
         </button>
-        {/* Implement increasing focus duration  and disable during a focus or break session */}
+        {/* button: increasing focus duration and disable during a focus or break session */}
         <button
           type="button"
           className={classNames({
